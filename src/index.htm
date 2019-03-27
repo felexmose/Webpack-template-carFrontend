@@ -7,10 +7,22 @@
 </head>
 
 <body>
-  <h1>Webpack - TypeScript - Scss</h1>
-  <h2>TypeScript Hello World</h2>  
-  <div id="content"></div>
-    
+  <h1>Kald til car rest service</h1>
+  <button id="getAllBtn">Get All Cars</button> <button id="clearBtn">Clear</button>
+  <div id="content"></div><br>
+
+  <h1>Add a new car.</h1>
+  <span>Model :</span><br><input id="addModel" placeholder="Type Model"><br>
+  <span>Vendor:</span><br> <input id="addVendor" placeholder="Type Vendor"><br>
+  <span>Price :</span><br> <input id="addPrice" placeholder="Type Price"><br>
+  <button id="addCarBtn">Add Car</button><br>
+  <h1>Delete a car</h1>
+  <span>Enter Id:</span><br>
+  <input id="deleteCarId" placeholder="Enter Id "><br>
+  <button id="deleteCarBtn">Delete Car</button>
+
+  
+  
   <script src="bundle.js"></script>
 </body>
 </html>
